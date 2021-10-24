@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>FOOD HOUSE</title>
+    <!-- Additional CSS Files -->
+    <!-- <link rel="stylesheet" type="text/css" href="landingPage/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="landingPage/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="preloader"></div>
+
+
+    <!-- ////////////////////////////// nav bar///////////////////// -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark scrolling-navbar" id="navbar">
+        <a class="navbar-brand" href="#"> <span class="resturantLogo">FOOD </span> <span
+                class="resturantLogo2">HOUSE</span> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link navLinks" href="#top">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLinks" href="#dishes">OUR DISHES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLinks" href="#slider">OUR RESTURANTS</a>
+                </li>
+
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <div class="main-button scroll-to-section" style="display: flex; justify-content: center;">
+                    <div>
+
+                        <i id="cartIcon" class="fas fa-cart-plus float-left" data-toggle="modal" data-target="#addToCartModal"></i>
+                    </div>
+                    <a id="logindata" href="" class="mx-3">Sign
+                        Out</a>
+                    <a id="offlinedata" href=" ./custumer-signin_signup-page/custumerSignIn&SignUp.html" class="mx-3">Signin Or SignUp</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ////////////////////////////// nav bar///////////////////// -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <div id="bg-video">
+            <img src="./landingPage/images/front image.jpg" alt="" id="frontImg">
+        </div>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6 id="onlineUserName"></h6>
+                <h2>The taste you <em>deserve</em> is here</h2>
+                <div class="main-button scroll-to-section">
+                    <a id="orderStatus" style="display: none;" href="#orderStatusForUser">Order Status</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Main Banner Area End ***** -->
+
+
+
+
+
+
+
+
+    <!-- ***** OUR ALL DISHES ***** -->
+
+    <div id="dishes">
+        <div class="rowheading">
+
+            <div class="ourdishesHeading">
+                <h1>OUR DISHES</h1>
+            </div>
+        </div>
+
+
+
+        <div class="container my-5">
+            <div class="row" id="rowa">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ***** call to ections ***** -->
+    <div class="container-fluid" id="callToAction">
+        <div class="row">
+            <div class="col-md-2 col-0"></div>
+            <div class="col-md-8" id="action">
+                <h2>JOIN US AS A <span id="actionClr">RESTURANT </span> </h2>
+                <div class="my-2"></div>
+                <h6>click below for signup </h6>
+                <div class="my-4"></div>
+                <div class="main-button scroll-to-section">
+                    <a href="./resturant registration/signin-and-signup/signinandsignup.html">Sign Up</a>
+                </div>
+                <!-- <button type="button" class="btn btn-lg btn-dark" id="resturantBtn">Go for It!</button> -->
+            </div>
+            <div class="col-md-2 col-0"></div>
+        </div>
+    </div>
+
+    <!-- ***** call to ections end ***** -->
+
+    <!-- /////////////////////our resturant/////////////////// -->
+
+    <div id="slider">
+        <div class="section" id="features" style="width: 100%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section-heading">
+                            <h2>Select your favorite <em>resturant</em></h2>
+                            <!-- <img src="/landingPage/images/aa.jpg" alt="waves"> -->
+                            <div style="display: flex; justify-content: center; align-items: center;">
+
+                                <p class="col-lg-6"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae sapiente non aspernatur temporibus libero, modi possimus rerum nulla fugiat!</p>
+                            </div>
+                            <!-- =================resturant ka name aain ga is jaga par==================== -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////resturants filter div///////////////////// -->
+    <div class="container">
+
+        <div class="row">
+            <div class="card-deck" id="resturantCards">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /////////////////////////// print dishes resturant filter modal////////////////// -->
+
+    <div class="container" onclick="emptyModal()">
+        <!-- Modal -->
+        <div class="modal fade " id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 id="resturantPersonName"></h3>
+                        <button type="button" onclick="emptyModal()" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row" id="modalBodyFilterCards">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ///////////////////////////  modal for add to cart////////////////// -->
+
+
+    <div class="container-fluid"></div>
+    <!-- Modal -->
+    <div class="modal fade " id="addToCartModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header caption">
+                    <h2> <em style="color: #ed563b;">CART</em></h2>
+                    <!-- ///////////////modal header///////////////// -->
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row p-2" id="addToCartPage">
+
+                    </div>
+                    <!-- ////////////////content aay ga yaha/////////////////////// -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- //////////////////// ORDER STATUS ////////////////////////////////// -->
+
+    <!-- //////////////////////////////// TABS FOR ORDER STATUS//////////////////////// -->
+    <div class="container" id="orderStatusForUser">
+        <div class="rowheading">
+
+            <div class="ourdishesHeading">
+                <h1>ORDER STATUS</h1>
+            </div>
+        </div>
+        <div class="my-4"></div>
+        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#pending" role="tab" aria-controls="pills-home" aria-selected="true">Pending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="tab" href="#accepted" role="tab" aria-controls="pills-profile" aria-selected="false">Accepted</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="tab" href="#delivered" role="tab" aria-controls="pills-contact" aria-selected="false">Delivered</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pending" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="container-fluid">
+                    <div class="row" id="pendinga"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="accepted" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container-fluid">
+                    <div class="row" id="accepteda"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="delivered" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="container-fluid">
+                    <div class="row" id="delivereda"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="my-5"></div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="pt-3"></div>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-utensils"></i> &nbsp; FOOD HOUSE
+                        </h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dignissimos veniam ratione, consectetur voluptates non dolores illum qui in placeat!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Desi</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Fast Food</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Chinies</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Grill</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> malir karachi Pakistan</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> maazanis98@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +92 3182180649 </p>
+                        <p><i class="fab fa-whatsapp-square"></i> +92 342191802</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#">MAAZANIS</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- ==========firebase scripts============================ -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDV65bnV4bBgVXUgFIptlrX9-uPQP2K2u4",
+            authDomain: "fooddelivery-bc5ae.firebaseapp.com",
+            projectId: "fooddelivery-bc5ae",
+            storageBucket: "fooddelivery-bc5ae.appspot.com",
+            messagingSenderId: "674405045808",
+            appId: "1:674405045808:web:633fae546c2d4316c9bff5"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
+    <!-- ==========firebase scripts end============================ -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="landingPage/js/custom.js"></script>
+
+</body>
+
+</html>
